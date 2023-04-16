@@ -1,0 +1,75 @@
+/* TopBar.css */
+.top-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; /* Set the background color to gray */
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .icon {
+    /* Add styles for outlined icons */
+    background-color: gray; /* Set the background color to gray */
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .profile-icon {
+    /* Add styles for outlined profile icon */
+    background-color: gray; /* Set the background color to gray */
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .left-side {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-side {
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  .profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 1rem; /* Updated */
+    position: relative; /* Added */
+  }
+  
+  .profile-name {
+    margin-left: 0.5rem;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #f8f8f8;
+    padding: 0.5rem;
+    border-radius: 4px;
+    display: none;
+  }
+  
+  .profile:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown ul li {
+    cursor: pointer;
+    padding: 0.25rem;
+  }
+  

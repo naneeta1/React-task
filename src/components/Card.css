@@ -1,0 +1,30 @@
+.card-container {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    width: 200px;
+    height: 100px;
+  }
+  
+  .card-icon {
+    font-size: 24px;
+    margin-right: 16px;
+  }
+  
+  .card-text {
+    flex-grow: 1;
+  }
+  
+  .card-text h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .card-text p {
+    font-size: 14px;
+    color: #999;
+  }
+  

@@ -1,0 +1,58 @@
+.slider-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    align-items: center;
+  }
+  
+  .slider-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 300px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .slide-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-number {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-balance {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .slider-navigation-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .slider-navigation-button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
